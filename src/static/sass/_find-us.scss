@@ -1,0 +1,40 @@
+/*
+ * Find Us
+ */
+
+ .cards.features {
+    @apply grid md:grid-cols-3 grid-rows-none gap-8 mt-48;
+  
+    > .card {
+      @apply first:mt-0 mt-40 md:mt-0;
+      position: relative;
+      padding-top: 25%;
+      font-family: "GoogleSans", sans-serif;
+  
+      > .card-title {
+        font-size: 1.4em;
+        font-family: "GoogleSans", sans-serif;
+      }
+  
+      &:hover {
+        > .card-image {
+          transform: scale(1.1);
+        }
+      }
+  
+      > .card-image {
+        top: -40%;
+        left: 0;
+        right: 0;
+        position: absolute;
+        transition: 0.4s transform;
+  
+        > img {
+          margin: auto;
+          width: auto;
+          height: 175px;
+        }
+      }
+    }
+  }
+  

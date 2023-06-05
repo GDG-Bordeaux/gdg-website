@@ -1,0 +1,57 @@
+/*
+ * Team
+ */
+
+.team-wrapper {
+  padding: 16px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.team-image {
+  height: 150px;
+  position: relative;
+  width: 150px;
+}
+
+.team-border {
+  bottom: 0;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 150px;
+  z-index: 2;
+}
+
+.team {
+  border: 8px solid transparent;
+  border-radius: 50%;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.team-name {
+  width: 100%;
+  text-align: center;
+  font-family: 'GoogleSans';
+  padding: 16px 0 0 0;
+  font-size: 22px;
+}
+
+.team-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 16px 0;
+  max-width: 900px;
+  margin: auto;
+}
