@@ -1,7 +1,7 @@
 backend:
   # Use netlify identity as backend
   name: git-gateway
-  branch: master
+  branch: main
   ### enable below lines for github integration ###
   # name: github
   # repo: surjithctly/neat-starter
@@ -18,15 +18,15 @@ collections:
       preview: false
     files:
       - label: "Membres GDG"
-        name: "membreGDG"
+        name: "gdgmembers"
         file: "src/_data/members.yaml"
         fields:
           - label: Members
-            name: members
+            name: member
             widget: list
             allow_add: true
             collapsed: false
             fields:
-              - { label: PrenomNom, name: name, widget: string }
-              - { label: PhotoURL, name: PhotoURL, widget: string }
+              - { label: "Prenom Nom", name: name, widget: string }
+              - { label: "Photo URL", name: PhotoURL, widget: string }
       

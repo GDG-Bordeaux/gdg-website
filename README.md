@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3f58ebfa-ea32-4ae0-93ce-252db76024dc/deploy-status)](https://app.netlify.com/sites/gdgbordeaux/deploys)
+
 # GDG Bordeaux
 
 <p align="center">

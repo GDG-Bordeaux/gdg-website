@@ -7,6 +7,7 @@
   
     > .card {
       @apply first:mt-0 mt-40 md:mt-0;
+      margin-top: 3rem !important;
       position: relative;
       padding-top: 25%;
       font-family: "GoogleSans", sans-serif;
@@ -29,7 +30,7 @@
         position: absolute;
         transition: 0.4s transform;
   
-        > img {
+        > a > img {
           margin: auto;
           width: auto;
           height: 175px;

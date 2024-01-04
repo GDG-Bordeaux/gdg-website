@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> 
+    
     <title>{{title}}</title>
     <meta name="description" content="Bienvenue au Groupe de Développeurs Google (GDG) - une communauté de développeurs, technologues et passionnés des technologies Google. Rejoignez-nous pour apprendre, partager des connaissances et collaborer sur des projets passionnants." />
     <link rel="apple-touch-icon" sizes="180x180" href="./static/images/apple-touch-icon.png">
@@ -24,10 +25,9 @@
     {% include "./partials/footer.html" %}
   </body>
 
-  {% if path == "home" %}
+  
     <!-- Netlify Identity Widget -->
     <!-- Needed only if you are using Netlify Identity feature -->
     <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  {% endif %}
 
 </html>
